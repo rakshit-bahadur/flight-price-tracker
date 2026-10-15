@@ -1,8 +1,7 @@
 """Client and parser for AeroDataBox airport departures (via RapidAPI).
 
 AeroDataBox returns flight schedules and status (airline, flight number,
-times, aircraft). It does not return fares; fares come from a fare provider
-(see fares.py).
+times, aircraft). It does not return fares; fares come from a fare provider.
 """
 
 from __future__ import annotations

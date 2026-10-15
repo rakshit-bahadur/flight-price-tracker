@@ -1,0 +1,13 @@
+[project]
+name = "flight-tracker"
+version = "1.0.0"
+description = "Pure-Python logic for the FlightPriceTracker Databricks pipeline"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
